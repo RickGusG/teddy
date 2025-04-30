@@ -25,7 +25,6 @@ Este projeto é composto por:
    - **Frontend:** [http://localhost:5173](http://localhost:5173)
    - **Backend (API/Swagger):** [http://localhost:3000/api](http://localhost:3000/api)
    - **RabbitMQ UI:** [http://localhost:15672](http://localhost:15672) (user: guest, senha: guest)
-   - **Postgres:** [http://localhost:5432](http://localhost:5432) (user: postgres, senha: postgres, db: teddy)
 
 ### Variáveis de ambiente
 As variáveis já estão configuradas no `docker-compose.yml` para todos os serviços.
