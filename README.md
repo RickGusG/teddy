@@ -13,7 +13,10 @@ Este projeto é composto por:
 - Docker e Docker Compose instalados
 
 ### Subindo o sistema
-1. Clone o repositório e acesse a raiz do projeto.
+1. Clone o repositório recursivamente e acesse a raiz do projeto.
+   ```sh
+   git clone --recursive git@github.com:RickGusG/teddy.git
+   ```
 2. Execute:
    ```sh
    docker-compose up --build
@@ -22,7 +25,7 @@ Este projeto é composto por:
    - **Frontend:** [http://localhost:5173](http://localhost:5173)
    - **Backend (API/Swagger):** [http://localhost:3000/api](http://localhost:3000/api)
    - **RabbitMQ UI:** [http://localhost:15672](http://localhost:15672) (user: guest, senha: guest)
-   - **Postgres:** localhost:5432 (user: postgres, senha: postgres, db: teddy)
+   - **Postgres:** [http://localhost:5432](http://localhost:5432) (user: postgres, senha: postgres, db: teddy)
 
 ### Variáveis de ambiente
 As variáveis já estão configuradas no `docker-compose.yml` para todos os serviços.
@@ -32,7 +35,6 @@ As variáveis já estão configuradas no `docker-compose.yml` para todos os serv
 - **Backend:** NestJS, TypeORM, Postgres, RabbitMQ
 - **Mensageria:** RabbitMQ para eventos (ex: criação de cliente)
 - **Documentação:** Swagger no backend
-- **Testes:** Unitários no backend
 - **Deploy:** Docker Compose para orquestração
 
 ## Instruções locais
