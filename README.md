@@ -39,3 +39,34 @@ As variáveis já estão configuradas no `docker-compose.yml` para todos os serv
 
 ## Instruções locais
 Para rodar apenas o backend ou frontend localmente, consulte os READMEs em `teddy-test-backend/` e `teddy-test/`. 
+
+## Q&A desenvolvimento de um painel administrativo
+### 1. Quanto tempo levaria?
+   - Para um MVP funcional: 2-3 meses
+   - Desenvolvimento completo: 4-6 meses
+   - Considerando:
+     - Desenvolvimento do frontend e backend
+     - Testes automatizados
+     - Documentação
+     - Período de homologação
+     - Ajustes e correções
+     
+### 2. Quantos desenvolvedores?
+   - Time mínimo recomendado:
+     - 2 desenvolvedores fullstack ou
+     - 1 frontend + 1 backend
+   - Time ideal:
+     - 2-3 desenvolvedores frontend
+     - 2 desenvolvedores backend
+     - 1 tech lead/arquiteto
+     - 1 QA
+
+### 3. Qual a senioridade dos desenvolvedores?
+   - Time mínimo:
+     - Desenvolvedores fullstack sênior ou
+     - 1 frontend pleno/sênior + 1 backend pleno/sênior
+   - Time ideal:
+     - Frontend: 1 sênior + 1-2 pleno/júnior
+     - Backend: 1 sênior + 1 pleno
+     - Tech lead/arquiteto sênior
+     - QA pleno/sênior
