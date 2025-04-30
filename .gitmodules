@@ -1,0 +1,6 @@
+[submodule "teddy-test-backend"]
+	path = teddy-test-backend
+	url = git@github.com:RickGusG/teddy-test-backend.git
+[submodule "teddy-test"]
+	path = teddy-test
+	url = git@github.com:RickGusG/teddy-test.git
